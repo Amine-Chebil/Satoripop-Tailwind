@@ -1,4 +1,6 @@
 import './style.css';
+import Glide from '@glidejs/glide';
+import '@glidejs/glide/dist/css/glide.core.min.css';
 
 // Multi-Card Carousel
 const config = {
