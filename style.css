@@ -30,3 +30,8 @@ button[aria-current="true"] {
     font-weight: normal;
     font-style: normal;
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}

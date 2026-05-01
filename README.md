@@ -57,6 +57,6 @@ npm run preview
 
 ## Dependencies
 - **tailwindcss** (^3.3.3) - Utility-first CSS framework
-- **vite** (^4.4.5) - Fast build tool and dev server
+- **vite** (^8.0.10) - Fast build tool and dev server
 - **@glidejs/glide** (^3.6.0) - Carousel/slider library
 - **tw-elements** (^1.0.0-beta2) - Tailwind CSS components library
