@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satoripop</title>
+  <link href="/outputcss/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+</head>
+
+<body class="font-comfortaa m-0 p-0">
+  <header class="navbar py-[15px] lg:bg-transparent lg:shadow-none bg-white shadow-xl px-8 fixed top-0 left-0 right-0 z-[999] duration-500">
+    <!-- Navbar -->
+    <nav class="lg:container flex justify-between items-center mx-auto bg-transparent z-[999]">
+      <div><img class="lg:min-h-fit lg:min-w-fit cursor-pointer" src="img/satoripop_logo.png" alt="..."></div>
+      <div
+        class="nav-links lg:static absolute lg:min-h-fit left-0 right-0 top-[-440%] lg:w-auto w-full flex items-center justify-center text-center duration-500">
+        <ul class="flex lg:flex-row flex-col items-center lg:bg-transparent bg-white w-full lg:pb-0 pb-4 z-50">
+          <li class="flex justify-center lg:my-0 my-2">
+            <div class="relative" data-te-dropdown-ref>
+              <button
+                class="flex focus:bg-transparent items-center whitespace-nowrap rounded px-6 py-2 text-sm text-default font-bold transition duration-150 ease-in-out motion-reduce:transition-none mx-auto"
+                type="button" id="dropdownMenuButton1" data-te-dropdown-toggle-ref aria-expanded="false"
+                data-te-ripple-init data-te-ripple-color="light">Business Unit
+                <span class="ml-2 w-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                    <path fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+              <ul
+                class="!static !inset-auto !transform-none lg:!absolute z-[1000] m-0 hidden list-none lg:rounded-lg border-none text-default lg:bg-white text-base lg:shadow-lg lg:[&[data-te-dropdown-show]]:block [&[data-te-dropdown-show]]:flex flex-col"
+                aria-labelledby="dropdownMenuButton1" data-te-dropdown-menu-ref>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Action</a>
+                </li>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Another action</a>
+                </li>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="flex justify-center lg:my-0 my-2">
+            <div class="relative" data-te-dropdown-ref>
+              <button
+                class="flex focus:bg-transparent items-center whitespace-nowrap rounded px-6 py-2 text-sm text-default font-bold transition duration-150 ease-in-out motion-reduce:transition-none mx-auto"
+                type="button" id="dropdownMenuButton1" data-te-dropdown-toggle-ref aria-expanded="false"
+                data-te-ripple-init data-te-ripple-color="light">Produits
+                <span class="ml-2 w-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                    <path fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+              <ul
+                class="!static !inset-auto !transform-none lg:!absolute z-[1000] m-0 hidden list-none lg:rounded-lg border-none text-default lg:bg-white text-base lg:shadow-lg lg:[&[data-te-dropdown-show]]:block [&[data-te-dropdown-show]]:flex flex-col"
+                aria-labelledby="dropdownMenuButton1" data-te-dropdown-menu-ref>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Action</a>
+                </li>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Another action</a>
+                </li>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="flex justify-center lg:my-0 my-2">
+            <div class="relative" data-te-dropdown-ref>
+              <button
+                class="flex focus:bg-transparent items-center whitespace-nowrap rounded px-6 py-2 text-sm text-default font-bold transition duration-150 ease-in-out motion-reduce:transition-none mx-auto"
+                type="button" id="dropdownMenuButton1" data-te-dropdown-toggle-ref aria-expanded="false"
+                data-te-ripple-init data-te-ripple-color="light">Services
+                <span class="ml-2 w-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                    <path fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </span>
+              </button>
+              <ul
+                class="!static !inset-auto !transform-none lg:!absolute z-[1000] m-0 hidden list-none lg:rounded-lg border-none text-default lg:bg-white text-base lg:shadow-lg lg:[&[data-te-dropdown-show]]:block [&[data-te-dropdown-show]]:flex flex-col"
+                aria-labelledby="dropdownMenuButton1" data-te-dropdown-menu-ref>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Action</a>
+                </li>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Another action</a>
+                </li>
+                <li>
+                  <a class="block w-full whitespace-nowrap px-4 py-2 text-sm font-normal text-default active:no-underline disabled:pointer-events-none"
+                    href="#" data-te-dropdown-item-ref>Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="flex justify-center lg:my-0 my-2">
+            <a class="hover:text-gray-500 text-default font-bold text-sm whitespace-nowrap px-6 py-2" href="#">Case studies</a>
+          </li>
+          <li class="lg:hidden lg:my-0 my-2 ">
+            <button
+              class="bg-transparent border border-solid border-default text-default py-2 px-8 h-11 rounded-full hover:bg-default hover:text-white duration-300 text-sm font-bold">Career</button>
+            <button
+              class="border border-solid border-default bg-default text-primary py-2 px-8 h-11 rounded-full hover:bg-primary hover:border-primary hover:text-default duration-300 text-sm font-bold">Contact</button>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:flex hidden items-center gap-2">
+        <button
+          class="bg-transparent border border-solid border-default text-default py-2 px-7 h-11 rounded-full hover:bg-default hover:text-white duration-300 text-sm font-bold">Career</button>
+        <button
+          class="border border-solid border-default bg-default text-primary py-2 px-7 h-11 rounded-full hover:bg-primary hover:border-primary hover:text-default duration-300 text-sm font-bold">Contact</button>
+      </div>
+      <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer lg:hidden"></ion-icon>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative">
+    <div class="bg-main bg-no-repeat bg-top absolute w-full h-full z-[-1] "></div>
+    <div class="lg:container text-center pt-48">
+      <div class="md:text-6xl sm:text-5xl text-3xl text-center mb-4 mx-auto">
+        <p class="mb-4 text-default font-bold">Technology-enabled,</p>
+        <p class="mb-4 text-default font-bold"><span
+            class="relative z-[-1] after:content-normal after:bg-primary after:absolute after:left-0 after:sm:h-2 after:h-1 after:w-full after:bottom-2 after:rounded-xl after:z-[-2]">innovation</span>-driven
+        </p>
+      </div>
+      <p class="font-open-sans text-secondary mx-auto sm:w-5/12 w-auto mb-4 leading-6 text-sm sm:px-0 px-6">Our team
+        comprises dedicated software developers, creative UX/ UI
+        designers, cloud specialists, and digital marketing enthusiasts working collaboratively to deliver end-to-end,
+        customer-centric solutions.</p>
+      <div class="estimate mt-16">
+        <button type="button"
+          class="bg-[#2A2C68] text-primary text-sm font-bold px-8 py-3 rounded-full border border-solid hover:bg-white hover:border-default hover:text-default duration-300 justify-center items-center">Get a free estimate</button>
+      </div>
+
+      <div class="values-lg:container justify-center">
+        <p class="text-3xl font-bold text-default mt-40 mx-auto">Technology-enabled, innovation-driven</p>
+        <div class="flex flex-wrap justify-center items-center mt-6 gap-4">
+          <div
+            class="w-[22rem] h-60 bg-white rounded-3xl overflow-hidden shadow-lg justify-center items-center py-8 my-2 mx-2">
+            <img class="mx-auto w-12" src="img/team-idea.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="text-default font-bold text-2xl mb-2">Customer-focused team</div>
+              <p class="font-open-sans text-secondary text-sm leading-6">We deliver customer-centric solutions that
+                add real value to your business.</p>
+            </div>
+          </div>
+          <div
+            class="w-[22rem] h-60 bg-primary rounded-3xl overflow-hidden shadow-lg justify-center items-center py-8 my-2 mx-2">
+            <img class="mx-auto w-12" src="img/robot-head-1.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="text-default font-bold text-2xl mb-2">Cutting-edge technology</div>
+              <p class="font-open-sans text-secondary text-sm leading-6">We solve your complex problems and help you
+                gain a competitive edge.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-[22rem] h-60 bg-white rounded-3xl overflow-hidden shadow-lg justify-center items-center py-8 my-2 mx-2">
+            <img class="mx-auto w-12" src="img/smiley-smile.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="text-default font-bold text-2xl mb-2">Agile approach</div>
+              <p class="font-open-sans text-secondary text-sm leading-6">We work as an extension of your team to meet
+                your evolving requirements.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="container mt-20">
+    <p class="text-center text-secondary font-bold text-sm my-6">LOVED BY TEAMS AROUND THE WORLD</p>
+    <div class="overflow-x-auto">
+      <div class="flex flex-nowrap justify-between items-center min-w-[700px] gap-5 mx-3">
+        <div
+          class="flex justify-center w-40 grayscale transition-all duration-400 opacity-50 hover:grayscale-0 hover:opacity-100">
+          <img src="img/microsoft.png">
+        </div>
+        <div
+          class="flex justify-center w-40 grayscale transition-all duration-400 opacity-50 hover:grayscale-0 hover:opacity-100">
+          <img src="img/tt.png">
+        </div>
+        <div
+          class="flex justify-center w-40 grayscale transition-all duration-400 opacity-50 hover:grayscale-0 hover:opacity-100">
+          <img src="img/BNA.png">
+        </div>
+        <div
+          class="flex justify-center w-40 grayscale transition-all duation-400 opacity-50 hover:grayscale-0 hover:opacity-100">
+          <img src="img/carrefour.png">
+        </div>
+        <div
+          class="flex justify-center w-40 grayscale transition-all duration-400 opacity-50 hover:grayscale-0 hover:opacity-100">
+          <img src="img/stb_bank.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Section -->
+  <section class="lg:container md:mt-24 mt-16">
+    <h2 class="m-auto text-default w-fit font-bold text-center sm:text-5xl text-4xl relative after:content-normal after:bg-primary after:absolute after:left-0 after:h-2 after:w-full after:bottom-[-2px] after:rounded-xl">
+      Business unit</h2>
+    <p class="flex flex-col text-center mx-auto text-secondary text-sm font-open-sans my-6">We handle all aspects of
+      your project at every stage of the development process.
+      <br>We are invested in your business success.
+    </p>
+    <!-- Expanding flex cards -->
+    <div class="container mx-auto flex flex-row justify-center items-center" x-data="{ open: 1 }">
+
+      <div class="flex md:flex-row md:w-screen md:h-[600px] flex-col w-full h-[800px] items-stretch ">
+        <!-- card 1 -->
+        <div class="relative md:min-w-[14%] min-h-[15%] m-3 overflow-hidden rounded-br-3xl shadow-2xl duration-500 after:absolute after:opacity-0 after:bg-gradient-to-t after:from-default after:w-full after:z-0 after:h-1/2 after:bottom-0"
+          :class="{ 'flex-grow after:opacity-60' : open === 1 }" @click="open = 1">
+          <!-- image -->
+          <img src="img/img-rtl.png" alt="image" class="absolute offset-0 object-cover md:object-[33%] object-card1 h-full w-full">
+          <div class="bg-default w-24 h-44 absolute bottom-5 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open !== 1 }"></div>
+          <div class="bg-default md:w-24 w-20 h-24 absolute md:bottom-5 bottom-2 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open == 1 }"></div>
+          <div class="absolute bottom-3 left-3 flex items-center">
+            <div class="md:pl-2 pl-0 md:mb-1 mb-[-16px] ml-7 text-white duration-500 z-10" :class="{ 'hidden' : open == 1 }">
+              <div class="font-extrabold md:text-5xl text-[27px] rotate-[-90deg] origin-left">RETAIL</div>
+            </div>
+            <div class="pl-4 mb-8 text-white duration-500 z-10" :class="{ 'hidden' : open !== 1 }">
+              <div class="font-extrabold text-4xl">RETAIL</div>
+              <div class="font-normal">Our team comprises dedicated software developers</div>
+              <button class="flex items-center justify-center bg-primary rounded-[50%] w-11 h-11"><img src="img/arrow-right-2.png" alt=""></button>
+            </div>
+          </div>
+
+        </div>
+        <!-- card 2 -->
+        <div class="relative md:min-w-[14%] min-h-[15%] m-3 overflow-hidden rounded-br-3xl shadow-2xl duration-500 after:absolute after:opacity-0 after:bg-gradient-to-t after:from-default after:w-full after:z-0 after:h-1/2 after:bottom-0"
+          :class="{ 'flex-grow after:opacity-60' : open === 2 }" @click="open = 2">
+          <!-- image -->
+          <img src="img/img-smb.png" alt="image"
+            class="absolute offset-0 object-cover md:object-[65%] object-card2 h-full w-full">
+          <div class="bg-default w-24 h-44 absolute bottom-5 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open !== 2 }"></div>
+          <div class="bg-default md:w-24 w-20 h-24 absolute md:bottom-5 bottom-2 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open == 2 }"></div>
+          <div class="absolute bottom-3 left-3 flex items-center">
+            <div class="md:pl-2 pl-0 md:mb-1 mb-[-16px] ml-7 text-white duration-500 z-10" :class="{ 'hidden' : open == 2 }">
+              <div class="font-extrabold md:text-5xl text-[27px] rotate-[-90deg] origin-left">SMB</div>
+            </div>
+            <div class="pl-2 mb-8 text-white z-10" :class="{ 'hidden' : open !== 2 }">
+              <div class="font-extrabold text-4xl">SMB</div>
+              <div class="font-normal">Our team comprises dedicated software developers</div>
+              <button class="flex items-center justify-center bg-primary rounded-[50%] w-11 h-11"><img
+                  src="img/arrow-right-2.png" alt=""></button>
+            </div>
+          </div>
+
+        </div>
+        <!-- card 3 -->
+        <div class="relative md:min-w-[14%] min-h-[15%] m-3 overflow-hidden rounded-br-3xl shadow-2xl duration-500 after:absolute after:opacity-0 after:bg-gradient-to-t after:from-default after:w-full after:z-0 after:h-1/2 after:bottom-0"
+          :class="{ 'flex-grow after:opacity-60' : open === 3 }" @click="open = 3">
+          <!-- image -->
+          <img src="img/img-fsi.png" alt="image"
+            class="absolute offset-0 object-cover md:object-[64%] object-card3 h-full w-full">
+          <div class="bg-default w-24 h-44 absolute bottom-5 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open !== 3 }"></div>
+          <div class="bg-default md:w-24 w-20 h-24 absolute md:bottom-5 bottom-2 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open == 3 }"></div>
+          <div class="absolute bottom-3 left-3 flex items-center">
+            <div class="md:pl-2 pl-0 md:mb-1 mb-[-16px] ml-7 text-white duration-500 z-10" :class="{ 'hidden' : open == 3 }">
+              <div class="font-extrabold md:text-5xl text-[27px] rotate-[-90deg] origin-left">FSI</div>
+            </div>
+            <div class="pl-2 mb-8 text-white duration-500 z-10" :class="{ 'hidden' : open !== 3 }">
+              <div class="font-extrabold text-4xl">FSI</div>
+              <div class="font-normal">Our team comprises dedicated software developers</div>
+              <button class="flex items-center justify-center bg-primary rounded-[50%] w-11 h-11"><img
+                  src="img/arrow-right-2.png" alt=""></button>
+            </div>
+          </div>
+
+        </div>
+        <!-- card 4 -->
+        <div class="relative md:min-w-[14%] min-h-[15%] m-3 overflow-hidden rounded-br-3xl shadow-2xl duration-500 after:absolute after:opacity-0 after:bg-gradient-to-t after:from-default after:w-full after:z-0 after:h-1/2 after:bottom-0"
+          :class="{ 'flex-grow after:opacity-60' : open === 4 }" @click="open = 4">
+          <!-- image -->
+          <img src="img/img-cld.png" alt="image"
+            class="absolute offset-0 object-cover md:object-[51%] object-card4 h-full w-full">
+          <div class="bg-default w-24 h-44 absolute bottom-5 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open !== 4 }"></div>
+          <div class="bg-default md:w-24 w-20 h-24 absolute md:bottom-5 bottom-2 left-0 rounded-tr-[38px] duration-500"
+            :class="{ 'hidden' : open == 4 }"></div>
+          <div class="absolute bottom-3 left-3 flex items-center">
+            <div class="md:pl-2 pl-0 md:mb-1 mb-[-16px] ml-7 text-white duration-500 z-10" :class="{ 'hidden' : open == 4 }">
+              <div class="font-extrabold md:text-5xl text-[27px] rotate-[-90deg] origin-left">CLOUD</div>
+            </div>
+            <div class="pl-2 mb-8 text-white duration-500 z-10" :class="{ 'hidden' : open !== 4 }">
+              <div class="font-extrabold text-4xl">CLOUD</div>
+              <div class="font-normal">Our team comprises dedicated software developers</div>
+              <button class="flex items-center justify-center bg-primary rounded-[50%] w-11 h-11"><img
+                  src="img/arrow-right-2.png" alt=""></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Whatwedo Section -->
+  <section class="md:mt-24 mt-16">
+    <h2
+      class="m-auto text-default w-fit font-bold text-center sm:text-5xl text-4xl relative 
+    after:content-normal after:bg-primary after:absolute after:left-0 after:h-2 after:w-full after:bottom-[-2px] after:rounded-xl">
+      What we do ?</h2>
+    <p class="flex flex-col text-center mx-auto text-secondary text-sm font-open-sans my-6">We handle all aspects of
+      your project at every stage of the development process.<br>We are invested in your business success.</p>
+    <!-- Multi-Card Carousel -->
+    <div class="flex justify-center items-center">
+      <div class="glide xl:w-[54rem] lg:w-[42rem] md:w-[30rem] sm:w-[18rem] rounded-3xl relative">
+      <div class="bg-gradient-to-l from-white z-50 right-0 absolute w-[35%] h-full"></div>
+      <div class="bg-gradient-to-r from-white z-50 left-0 absolute w-[35%] h-full"></div>
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides h-[300px]">
+          <li class="glide__slide flex justify-center items-center">
+            <div class="relative flex flex-col text-center items-center justify-center rounded-3xl duration-300 ease-in-out w-[232px] h-[232px]">
+              <div class="before:absolute before:w-full before:h-full before:bg-gradient-to-b before:rounded-[50%] before:z-[-1] before:left-0 before:from-cyan-200"><img src="img/icon_devweb.png" class="inline-block align-top" alt=""></div>
+              <h2 class="text-[25px] font-bold text-default text-center mt-[40px]">Web</h2>
+              <h2 class="text-[25px] text-default text-center">Development</h2>
+            </div>
+          </li>
+          <li class="glide__slide flex justify-center items-center">
+            <div class="relative flex flex-col text-center items-center justify-center rounded-3xl duration-300 ease-in-out w-[232px] h-[232px]">
+              <div class="before:absolute before:w-full before:h-full before:bg-gradient-to-b before:rounded-[50%] before:z-[-1] before:left-0 before:from-blue-200"><img src="img/icon_cloudcomputing.png" class="inline-block align-top" alt=""></div>
+                <h2 class="text-[25px] font-bold text-default text-center mt-[40px]">Cloud</h2>
+                <h2 class="text-[25px] text-default text-center">Computing</h2>
+            </div>
+          </li>
+          <li class="glide__slide flex justify-center items-center">
+            <div class="relative flex flex-col text-center items-center justify-center rounded-3xl duration-300 ease-in-out w-[232px] h-[232px]">
+              <div class="before:absolute before:w-full before:h-full before:bg-gradient-to-b before:rounded-[50%] before:z-[-1] before:left-0 before:from-orange-200"><img src="img/icon_uxui.png" class="inline-block align-top" alt=""></div>
+                <h2 class="text-[25px] font-bold text-default text-center mt-[40px]">UX / UI</h2>
+                <h2 class="text-[25px] text-default text-center">Design</h2>
+            </div>
+          </li>
+          <li class="glide__slide flex justify-center items-center">
+            <div class="relative flex flex-col text-center items-center justify-center rounded-3xl duration-300 ease-in-out w-[232px] h-[232px]">
+              <div class="before:absolute before:w-full before:h-full before:bg-gradient-to-b before:rounded-[50%] before:z-[-1] before:left-0 before:from-green-200"><img src="img/icon_devweb.png" class="inline-block align-top" alt=""></div>
+                <h2 class="text-[25px] font-bold text-default text-center mt-[40px]">Slider</h2>
+                <h2 class="text-[25px] text-default text-center">Title</h2>
+            </div>
+          </li>
+          <li class="glide__slide flex justify-center items-center">
+            <div class="relative flex flex-col text-center items-center justify-center rounded-3xl duration-300 ease-in-out w-[232px] h-[232px]">
+              <span class="absolute w-4 h-4 rounded-full right-4 top-4"></span>
+              <div class="before:absolute before:w-full before:h-full before:bg-gradient-to-b before:rounded-[50%] before:z-[-1] before:left-0 before:from-purple-200"><img src="img/icon_ai.png" class="inline-block align-top" alt=""></div>
+                <h2 class="text-[25px] font-bold text-default text-center mt-[40px]">Artificial</h2>
+                <h2 class="text-[25px] text-default text-center">Intelligence</h2>
+            </div>
+          </li>
+          <li class="glide__slide flex justify-center items-center">
+            <div class="relative flex flex-col text-center items-center justify-center rounded-3xl duration-300 ease-in-out w-[232px] h-[232px]">
+              <span class="absolute w-4 h-4 rounded-full right-4 top-4"></span>
+              <div class="before:absolute before:w-full before:h-full before:bg-gradient-to-b before:rounded-[50%] before:z-[-1] before:left-0 before:from-green-200"><img src="img/icon_devmob.png" class="inline-block align-top" alt=""></div>
+                <h2 class="text-[25px] font-bold text-default text-center mt-[40px]">Mobile</h2>
+                <h2 class="text-[25px] text-default text-center">Development</h2>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="glide__arrows flex absolute items-center justify-center w-full gap-3" data-glide-el="controls">
+        <button class="block z-[2] opacity-100 glide__arrow--left left-4" data-glide-dir="<">
+          <span class="h-[42px] w-[42px] bg-teal-400 rounded-[50%] flex items-center justify-center"><img src="img/arrow-left-3.png" class=""></img></span>
+        </button>
+        <button class="block z-[2] opacity-100 glide__arrow--right right-4" data-glide-dir=">">
+          <span class="h-[42px] w-[42px] bg-teal-400 rounded-[50%] flex items-center justify-center"><img src="img/arrow-right 3.png" class=""></img></span>
+          </div>
+        </button>
+      </div>
+    </div>
+    </div>
+
+  </section>
+
+  <!-- Solutions Section -->
+  <section class="lg:container mt-24">
+    <div class="text-center">
+      <h2 class="m-auto text-default w-fit font-bold text-center sm:text-5xl text-4xl relative after:content-normal after:bg-primary after:absolute after:left-0 after:h-2 after:w-full after:bottom-[-2px] after:rounded-xl">Solutions</h2>
+      <p class="flex flex-col text-center sm:mx-auto text-secondary text-sm font-open-sans my-6 mx-4">We build innovative, custom solutions across different industries.
+      </p>
+      <div class="">
+        <div class="flex flex-wrap m-auto justify-between items-center lg:gap-[1.6rem]">
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/qt.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Quicktext</div>
+              <p class="text-gray-700 text-base">We deliver customer-centric</p>
+              <a href="https://www.satoripop.com/solutions/quicktext" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_1.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_3.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_4.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_5.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_6.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_7.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-center items-center w-72 h-60 my-3 mx-auto rounded-2xl border-2 border-solid border-gray-100 bg-white hover:shadow-2xl">
+            <img class="mx-auto" src="img/Swieq_8.png" alt="Sunset in the mountains">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Swieq</div>
+              <p class="text-gray-700 text-base">Your Tailored Retail Selling Platform</p>
+              <a href="" class="before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies Section -->
+  <section class="lg:container md:mt-24 mt-16">
+    <h2
+      class="m-auto text-default w-fit font-bold text-center sm:text-5xl text-4xl relative after:content-normal after:bg-primary after:absolute after:left-0 after:h-2 after:w-full after:bottom-[-2px] after:rounded-xl">
+      Case Studies</h2>
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="relative pt-7" data-te-carousel-init data-te-ride="carousel">
+
+      <!--Carousel items-->
+      <div class="relative w-full after:clear-both after:block after:content-['']">
+        <div
+          class="lg:w-[410px] lg:h-[500px] lg:rounded-tr-[225px] lg:top-[-19%] top-0 w-full bottom-[-50px] bg-primary left-0 absolute z-0">
+        </div>
+        <!--First item-->
+        <div class="relative w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+          <div class="flex md:flex-nowrap flex-wrap justify-between relative lg:text-start text-center">
+            <div class="md:w-[53%] w-full pt-5">
+              <img src="img/pc.png" class="h-[302px] w-[529px] lg:block hidden" alt="">
+              <img src="img/qt-logo.png" class="lg:hidden block w-[341px] m-auto" alt="">
+            </div>
+            <div class="md:w-[47%] md:mr-12 pt-5">
+              <p class="text-default font-bold text-3xl">Quicktext</p>
+              <p class="text-sm text-secondary font-normal font-open-sans leading-7 my-4 md:mx-0 mx-6">Quicktext is an
+                easy, fast and profitable customer communication platform. A central
+                SaaS solution that responds to customers 24/7 in multiple languages, removes obstacles to hotel
+                booking, increases live sales and boosts additional revenue per room.</p>
+              <div
+                class="flex md:flex-nowrap flex-wrap lg:justify-start justify-center items-center relative sm:gap-20 gap-4 my-4 mx-auto">
+                <div class="lg:w-auto w-24 text-center">
+                  <img src="img/stopwatch.png" class="mx-auto" alt="...">
+                  <p class="small-title">Realtime</p>
+                </div>
+                <div class="lg:w-auto w-24 text-center">
+                  <img src="img/stopwatch.png" class="mx-auto" alt="...">
+                  <p class="small-title">Chatbot</p>
+                </div>
+                <div class="lg:w-auto w-24 text-center">
+                  <img src="img/stopwatch.png" class="mx-auto" alt="...">
+                  <p class="small-title">Sass</p>
+                </div>
+              </div>
+              <button type="button"
+                class="my-4 inline-flex justify-center items-center border border-solid border-default bg-default text-primary py-2 px-8 h-11 rounded-full hover:bg-primary hover:border-primary hover:text-default duration-300 text-sm font-bold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+        <!--Second item-->
+        <div
+          class="relative w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none hidden"
+          data-te-carousel-item style="backface-visibility: hidden">
+          <div class="flex md:flex-nowrap flex-wrap justify-between relative lg:text-start text-center">
+            <div class="md:w-[53%] w-full pt-5">
+              <img src="img/pc.png" class="h-[302px] w-[529px] lg:block hidden" alt="">
+              <img src="img/qt-logo.png" class="lg:hidden block w-[341px] m-auto" alt="">
+            </div>
+            <div class="md:w-[47%] md:mr-12 pt-5">
+              <p class="text-default font-bold text-3xl">Carousel title</p>
+              <p class="text-sm text-secondary font-normal font-open-sans leading-7 my-4 md:mx-0 mx-6">Quicktext is an
+                easy, fast and profitable customer communication platform. A central
+                SaaS solution that responds to customers 24/7 in multiple languages, removes obstacles to hotel
+                booking, increases live sales and boosts additional revenue per room.</p>
+              <div
+                class="flex md:flex-nowrap flex-wrap lg:justify-start justify-center items-center relative sm:gap-20 gap-4 my-4">
+                <div class="lg:w-auto w-24 text-center">
+                  <img src="img/stopwatch.png" class="mx-auto" alt="...">
+                  <p class="small-title">Realtime</p>
+                </div>
+                <div class="lg:w-auto w-24 text-center">
+                  <img src="img/stopwatch.png" class="mx-auto" alt="...">
+                  <p class="small-title">Chatbot</p>
+                </div>
+                <div class="lg:w-auto w-24 text-center">
+                  <img src="img/stopwatch.png" class="mx-auto" alt="...">
+                  <p class="small-title">Sass</p>
+                </div>
+              </div>
+              <button type="button"
+                class="my-4 inline-flex justify-center items-center border border-solid border-default bg-default text-primary py-2 px-8 h-11 rounded-full hover:bg-[#87acec] text-sm font-bold">Découvrir</button>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <div class="w-full flex absolute z-[1] items-center justify-center gap-4 lg:right-[30%]">
+
+          <button
+            class="w-[42px] h-[42px] flex justify-center items-center rounded-[50%] bg-transparent border-default border-2 border-solid p-0 text-default transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:bg-default hover:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
+            <span class="inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+          </button>
+
+          <button
+            class="w-[42px] h-[42px] flex justify-center items-center rounded-[50%] bg-transparent border-default border-2 border-solid p-0 text-default transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:bg-default hover:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
+            <span class="inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journal Section -->
+  <section class="lg:container md:mt-44 mt-24">
+    <h2
+      class="m-auto text-default w-fit font-bold text-center sm:text-5xl text-4xl relative after:content-normal after:bg-primary after:absolute after:left-0 after:h-2 after:w-full after:bottom-[-2px] after:rounded-xl">
+      Journal</h2>
+    <p class="text-center mx-auto text-secondary text-sm font-open-sans my-6">This is where we share glimpses of our company life, industry trends, and knowledge.</p>
+    <div class="flex md:flex-nowrap flex-wrap relative mt-8 md:flex-row flex-col">
+      <div class="md:w-1/2 mx-3">
+        <a  href="#" class="block  max-w-full lg:w-full mx-auto">
+          <div>
+          <img class="rounded-2xl w-full object-cover" src="img/Rectangle_27.png" />
+        </div>
+          <h3 class="text-default text-xl my-4">All you need to know to start integrating your website using SASS and
+            Bootstrap</h3>
+          <p class="font-open-sans text-sm">Safa Gueddes</p>
+          <p class="font-open-sans text-sm opacity-50">April 2, 2019</p>
+        </a>
+      </div>
+      <div class="md:w-1/2 mx-3 md:mt-0 mt-[20px]">
+        <a class="block w-full mx-auto" href="#">
+          <div class="flex md:flex-nowrap flex-wrap relative md:justify-normal justify-center gap-3">
+            <div class="md:w-[40%] w-full">
+              <img class="rounded-2xl w-full object-cover" src="img/Rectangle_28_2.png" />
+            </div>
+            <div class="md:w-[60%] w-full">
+              <h3 class="text-default text-xl">C# Full Stack Development with Blazor (Part 2)</h3>
+              <p class="font-open-sans text-sm mt-2">Oussama Tekaya</p>
+              <p class="font-open-sans text-sm opacity-50">February 26, 2019</p>
+            </div>
+          </div>
+        </a>
+        <a class="block w-full mx-auto" href="">
+          <div class="flex md:flex-nowrap flex-wrap relative md:justify-normal justify-center gap-3 my-6">
+            <div class="md:w-[40%] w-full">
+              <img class="rounded-2xl w-full object-cover" src="img/Rectangle_29.png" />
+            </div>
+            <div class="md:w-[60%] w-full">
+              <h3 class="text-default text-xl">Satoripop at the GSMA Mobile 360 Series Dubai</h3>
+              <p class="font-open-sans text-sm mt-2">Imen Ammar</p>
+              <p class="font-open-sans text-sm opacity-50">April 25, 2018</p>
+            </div>
+          </div>
+        </a>
+        <a class="block max-w-full lg:w-full mx-auto" href="">
+          <div class="flex md:flex-nowrap flex-wrap relative md:justify-normal justify-center gap-3">
+            <div class="md:w-[40%] w-full">
+              <img class="rounded-2xl w-full object-cover" src="img/Rectangle_30.png" />
+            </div>
+            <div class="md:w-[60%] w-full">
+              <h3 class="text-default text-xl">Satoripop academy : Training for Innovation</h3>
+              <p class="font-open-sans text-sm mt-2">Oussama Tekaya</p>
+              <p class="font-open-sans text-sm opacity-50">May 9, 2018</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="text-center mt-8"> <a class="text-default underline" href="">more stories</a></div>
+  </section>
+
+  <!-- Careers Section -->
+  <section class="lg:container md:mt-24 mt-16">
+    <div
+      class="flex md:flex-nowrap flex-wrap justify-between items-center bg-default relative lg:rounded-br-[50px] md:h-96">
+      <div class="md:w-2/5 ml-24 mx-6 md:mt-0 mt-4">
+        <div class="bg-primary w-4 h-28 absolute top-8 left-8 rounded-br-[20px]"></div>
+        <p class="text-4xl text-white">Careers</p>
+        <p class="font-open-sans leading-7 text-sm text-white my-6 mr-2">We nurture talent and unlock potential. Join
+          our fast-growing team, and let's
+          build great things together.</p>
+        <button type="button"
+          class="border-primary bg-primary text-default py-2 px-7 h-11 rounded-full border border-solid hover:bg-white hover:border-default hover:text-default duration-300 text-sm font-bold">Découvrir</button>
+      </div>
+      <div class="md:w-3/5 mx-auto md:my-0 my-6">
+        <img src="img/Rectangle 198.png" class="mx-auto lg:rounded-br-[50px] md:pr-5" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="mt-20 bg-slate-200 lg:h-[475px]">
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions2" class="relative py-24" data-te-carousel-init data-te-ride="carousel">
+      <!--Carousel indicators-->
+      <div class="absolute bottom-10 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center" data-te-carousel-indicators>
+        <button type="button" data-te-target="#carouselExampleCaptions2" data-te-slide-to="0" data-te-carousel-active
+          class="mx-[3px] w-[5px] h-[5px] cursor-pointer  bg-default p-0 duration-500 ease-in-out rounded-[50%]"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-te-target="#carouselExampleCaptions2" data-te-slide-to="1"
+          class="mx-[3px] w-[5px] h-[5px] cursor-pointer  bg-default p-0  duration-500 ease-in-out rounded-[50%]"
+          aria-label="Slide 2"></button>
+        <button type="button" data-te-target="#carouselExampleCaptions2" data-te-slide-to="2"
+          class="mx-[3px] w-[5px] h-[5px] cursor-pointer  bg-default p-0  duration-500 ease-in-out rounded-[50%]"
+          aria-label="Slide 3"></button>
+      </div>
+      <!--Carousel items-->
+      <div class="container">
+      <div
+        class="relative md:w-full md:mx-auto mx-4 after:clear-both after:block after:content-[''] bg-white lg:max-w-[829px] rounded-2xl rounded-bl-none 
+                  before:content-link before:absolute md:before:top-[-8%] before:top-[-4%] before:left-[5%]
+                  after:content-normal after:absolute after:bg-white after:h-5 after:w-9 after:left-0 after:bottom-[-18px] after:clip-your-needful-style">
+
+        <!--First item-->
+        <div class="relative mx-auto transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+          data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+          <div class="flex md:flex-nowrap flex-wrap justify-center relative md:text-start text-center">
+            <div class="py-10 w-full"><img src="img/image_test.png" class="rounded-[50%] mx-auto" alt=""></div>
+            <div class="md:mr-12 py-10">
+              <p class="text-default font-bold text-3xl">Balibart</p>
+              <p class="font-open-sans leading-6 text-sm my-5 md:mx-0 mx-8">I spent a whole month in Sousse; I worked
+                with the team, in the offices. I really appreciate all the good souvenirs and shared moments with them
+                [...] I believe our collaboration with satoripop was born to last.</p>
+              <p class="font-open-sans text-base font-semibold text-gray-800">Adrien sardina</p>
+              <p class="text-sm text-secondary md:mb-0 mb-11">Co Founder</p>
+            </div>
+          </div>
+        </div>
+        <!--Second item-->
+        <div
+          class="relative mx-auto justify-center transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none hidden"
+          data-te-carousel-item style="backface-visibility: hidden">
+          <div class="flex md:flex-nowrap flex-wrap justify-center relative md:text-start text-center">
+            <div class="py-10 w-full"><img src="img/image_test.png" class="rounded-[50%] mx-auto" alt=""></div>
+            <div class="md:mr-12 py-10">
+              <p class="text-default font-bold text-3xl">Amine</p>
+              <p class="font-open-sans leading-6 text-sm my-5 md:mx-0 mx-8">I spent a whole month in Sousse; I worked
+                with the team, in the offices. I really appreciate all the good souvenirs and shared moments with them
+                [...] I believe our collaboration with satoripop was born to last.</p>
+              <p class="font-open-sans text-base font-semibold text-gray-800 ">Adrien sardina</p>
+              <p class="text-sm text-secondary md:mb-0 mb-11">Co Founder</p>
+            </div>
+          </div>
+        </div>
+        <!--third item-->
+        <div
+          class="relative mx-auto justify-center transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none hidden"
+          data-te-carousel-item style="backface-visibility: hidden">
+          <div class="flex md:flex-nowrap flex-wrap justify-center relative md:text-start text-center">
+            <div class="py-10 w-full"><img src="img/image_test.png" class="rounded-[50%] mx-auto" alt=""></div>
+            <div class="md:mr-12 py-10">
+              <p class="text-default font-bold text-3xl">Rimel</p>
+              <p class="font-open-sans leading-6 text-sm my-5 md:mx-0 mx-8">I spent a whole month in Sousse; I worked
+                with the team, in the offices. I really appreciate all the good souvenirs and shared moments with them
+                [...] I believe our collaboration with satoripop was born to last.</p>
+              <p class="font-open-sans text-base font-semibold text-gray-800">Adrien sardina</p>
+              <p class="text-sm text-secondary md:mb-0 mb-11">Co Founder</p>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <div
+          class="flex md:right-[10%] md:left-auto left-[50%] translate-x-[-50%] absolute z-[1] items-center justify-center gap-4 bottom-5">
+
+          <button
+            class="w-[42px] h-[42px] flex justify-center items-center rounded-[50%] bg-transparent border-default border-2 border-solid p-0 text-default transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:bg-default hover:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button" data-te-target="#carouselExampleCaptions2" data-te-slide="prev">
+            <span class="inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+          </button>
+
+          <button
+            class="w-[42px] h-[42px] flex justify-center items-center rounded-[50%] bg-transparent border-default border-2 border-solid p-0 text-default transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:bg-default hover:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+            type="button" data-te-target="#carouselExampleCaptions2" data-te-slide="next">
+            <span class="inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </span>
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="pt-5 pb-4 bg-[#1C264B]">
+    <div class="container">
+      <img src="img/sat_logo_footer.png" alt="" class="md:ml-[20px] ml-[34px]">
+      <div class="flex md:flex-nowrap flex-wrap justify-between relative md:flex-row flex-col md:mx-0 mx-4">
+        <div class="md:w-1/2 mx-6">
+          <div class="flex md:flex-nowrap flex-wrap relative flex-col">
+            <div class="md:w-3/4">
+              <p class="text-white text-sm font-open-sans my-6">Satoripop is a custom software development house that delivers a wide range of end-to-end software solutions for businesses across various industries.</p>
+            </div>
+            <div class="">
+              <hr class="w-4/5 opacity-50">
+            </div>
+            <div class="my-3">
+              <p class="text-white text-sm font-open-sans">Sign up to get our lastest news and offers.</p>
+            </div>
+            <div class="md:w-3/4">
+              <div class="relative flex flex-wrap items-stretch">
+                <input type="text" class="relative h-[40px] m-0 block flex-auto rounded-3xl bg-white focus-visible:bg-transparent bg-opacity-[0.09] px-4 py-[0.25rem] text-sm font-normal transition duration-200 ease-in-out text-white"
+                  placeholder="Your email" aria-label="Your email" aria-describedby="button-addon2" />
+                <button class="!absolute z-[2] w-[90px] h-[40px] flex justify-center items-center rounded-3xl right-0 bg-primary px-6 pb-2 pt-2.5 transition duration-150 ease-in-out hover:bg-gray-600"
+                  data-te-ripple-init type="button" id="button-addon2">
+                  <img src="img/send-email-3.png" alt="">
+                </button>
+              </div>
+            </div>
+            <div class="flex flew-wrap gap-2 my-3">
+              <img src="img/icon_email.png" class="object-contain" alt="">
+              <p class="text-white text-sm font-open-sans">hello@satoripop.com</p>
+            </div>
+            <div class="flex flew-wrap">
+              <img src="img/icon_fb.png" class="" alt="">
+              <img src="img/icon_twitter.png" class="" alt="">
+              <img src="img/icon_insta.png" class="" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/2 md:mt-0 mt-6 md:bg-footer md:bg-contain md:bg-no-repeat mx-6">
+          <div class="grid md:flex-nowrap flex-wrap relative md:grid-cols-2 gap-5 md:w-[105%] w-[180%]">
+            <div class="">
+              <div class="flex md:flex-nowrap flex-wrap relative flex-col">
+                <div class="flex flex-wrap gap-2">
+                  <img src="img/icon_tn.png" class="object-contain">
+                  <p class="text-primary text-xl">Tunisia</p>
+                </div>
+
+                <div class="flex flex-wrap my-3 gap-2">
+                  <img class="object-contain" src="img/icon_phone.png">
+                  <p class="text-white">+216 73 210 332</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <img src="img/icon_pin.png" class="object-contain">
+                  <p class="text-white text-sm font-open-sans">Boulevard Hassouna Ayachi، Sousse 4000 - Tunisia</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="flex md:flex-nowrap flex-wrap relative flex-col">
+                <div class="flex flex-wrap gap-2">
+                  <img src="img/icon_fr.png" class="object-contain">
+                  <p class="text-primary text-xl">France</p>
+                </div>
+
+                <div class="flex flex-wrap my-3 gap-2">
+                  <img class="object-contain" src="img/icon_phone.png">
+                  <p class="text-white">+33 1 85 54 00 50</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <img src="img/icon_pin.png" class="object-contain">
+                  <p class="text-white text-sm font-open-sans">64 rue Jean Pierre Timbaud 75011 Paris, France</p>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="flex md:flex-nowrap flex-wrap relative flex-col">
+                <div class="flex flex-wrap gap-2">
+                  <img src="img/icon_usa.png" class="object-contain">
+                  <p class="text-primary text-xl">USA</p>
+                </div>
+
+                <div class="flex flex-wrap my-3 gap-2">
+                  <img class="object-contain" src="img/icon_phone.png">
+                  <p class="text-white">+1(858) 225-5944</p>
+                </div>
+
+                <div class="flex gap-2">
+                  <img src="img/icon_pin.png" class="object-contain">
+                  <p class="text-white text-sm font-open-sans">16192 Coastal Highway Lewes, DE 19958 USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="my-6">
+        <hr class="opacity-50">
+      </div>
+      <div class="flex md:flex-nowrap flex-wrap items-center relative md:flex-row flex-col">
+        <div class="md:w-1/3 mx-6">
+          <p class="text-white font-open-sans opacity-60 text-sm">© 2021 Copyright All Rights Reserved</p>
+        </div>
+        <div class="w-2/3 mx-6">
+          <div class="flex md:flex-nowrap flex-wrap items-center relative gap-4 lg:flex-row flex-col">
+            <div class="md:mt-0 mt-6">
+              <p class="text-white whitespace-nowrap">technology partners :</p>
+            </div>
+            <div class="">
+              <div class="flex flex-wrap justify-center items-center relative gap-3">
+                <div class=""><img src="img/icon_tech_partners_1.png" alt=""></div>
+                <div class=""><img src="img/icon_tech_partners_2.png" alt=""></div>
+                <div class=""><img src="img/icon_tech_partners_3.png" alt=""></div>
+                <div class=""><img src="img/icon_tech_partners_4.png" alt=""></div>
+                <div class=""><img src="img/icon_tech_partners_5.png" alt=""></div>
+                <div class=""><img src="img/icon_tech_partners_6.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tailwind Elements -->
+  <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Expanding flex cards -->
+  <script src="//unpkg.com/alpinejs" defer></script>
+
+  <!-- Multi-Card Carousel -->
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+  <script type="module" src="/main.js"></script>
+
+  <!-- Navbar -->
+  <script>
+    const navLinks = document.querySelector('.nav-links');
+
+    function onToggleMenu(e) {
+      if (navLinks.classList.contains('top-[-440%]')) {
+
+        navLinks.classList.remove('top-[-440%]');
+        navLinks.classList.add('top-[84%]');
+      } else {
+
+        navLinks.classList.add('top-[-440%]');
+        navLinks.classList.remove('top-[84%]');
+      }
+    }
+  </script>
+
+  <!-- change navbar background color when scroll  -->
+  <script>
+    const navEl = document.querySelector('.navbar');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 0) {
+        navEl.classList.add('lg:bg-white');
+        navEl.classList.add('lg:shadow-xl');
+      } else {
+        navEl.classList.remove('lg:bg-white');
+        navEl.classList.remove('lg:shadow-xl');
+      }
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+
+</body>
+
+</html>
