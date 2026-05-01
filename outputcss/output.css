@@ -3129,26 +3129,6 @@ button[aria-current="true"] {
   border-radius: 20%;
 }
 
-@font-face {
-  font-family: 'Comfortaa';
-
-  src: url('./fonts/Comfortaa.ttf') format('truetype');
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-
-  src: url('./fonts/OpenSans.ttf') format('truetype');
-
-  font-weight: normal;
-
-  font-style: normal;
-}
-
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
