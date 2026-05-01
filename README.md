@@ -21,7 +21,7 @@ Check it out from this link: https://satoripop-tailwind.vercel.app
 ```
 
 ## Prerequisites
-- Node.js (v14 or higher)
+- Node.js (v22 or higher)
 - npm or yarn package manager
 
 ## Installation Guide
